@@ -1,4 +1,4 @@
- import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart';
 
 class DismissKeyboard extends StatelessWidget {
   final Widget child;
@@ -22,5 +22,9 @@ class DismissKeyboard extends StatelessWidget {
  DismissKeyboard(
         child: MaterialApp()
    )
+
+  //Key board appear screen move  
+  //    bottom: MediaQuery.of(context).viewInsets.bottom),
+
 
 
