@@ -24,7 +24,10 @@ class DismissKeyboard extends StatelessWidget {
    )
 
   //Key board appear screen move  
-  //    bottom: MediaQuery.of(context).viewInsets.bottom),
+  //    padding.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+
+      SizedBox(height:MediaQuery.of(context).viewInsets.bottom+20),
+
 
 
 
